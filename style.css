@@ -1,0 +1,94 @@
+.btn-success-custom {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  background-color: #198754;
+  border: 1px solid #198754;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.375rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.btn-success-custom:hover {
+  background-color: #157347;
+  border-color: #146c43;
+}
+
+.btn-success-custom:active {
+  background-color: #146c43;
+  border-color: #13653f;
+}
+
+.btn-success-custom:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.5);
+}
+
+.contenedor {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+/* --------------------- CSS PARA LA CARD ---------------------------- */
+
+.card-custom {
+  width: 18rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.375rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.card-img-top-custom {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-body-custom {
+  padding: 1rem;
+}
+
+.card-title-custom {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.card-text-custom {
+  margin-bottom: 1rem;
+  color: #212529;
+  font-size: 1rem;
+}
+
+.btn-primary-custom {
+  display: inline-block;
+  color: #fff;
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+  padding: 0.375rem 0.75rem;
+  text-decoration: none;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.btn-primary-custom:hover {
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+.btn-primary-custom:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);
+}
